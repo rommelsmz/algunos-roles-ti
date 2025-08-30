@@ -49,8 +49,8 @@
         </p>
       </div>
       <div>
-        <img class="responsive" src="/images/ciso.jpeg" alt="Infografía de funciones de CISO" />
-        <img class="responsive" src="/images/cloud.jpeg" alt="Infografía de funciones del Especialista en Ciberseguridad en la Nube" />
+        <img class="responsive" :src="base + 'images/ciso.jpeg'" alt="Infografía de funciones de CISO" />
+        <img class="responsive" :src="base + 'images/cloud.jpeg'" alt="Infografía de funciones del Especialista en Ciberseguridad en la Nube" />
         <div class="card" style="margin-top:1rem">
           <h4 style="margin-top:0">Rangos Salariales — CISO / Responsable</h4>
           <SalaryTable
@@ -80,4 +80,5 @@
 </template>
 <script setup>
 import SalaryTable from '../components/SalaryTable.vue'
+const base = import.meta.env.BASE_URL
 </script>

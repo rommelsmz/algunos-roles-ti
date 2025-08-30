@@ -29,7 +29,7 @@
         </p>
       </div>
       <div>
-        <img class="responsive" src="/images/devop.jpeg" alt="Infografía de prácticas DevOps: CI/CD, IaC, observabilidad y escalado" />
+        <img class="responsive" :src="base + 'images/devop.jpeg'" alt="Infografía de prácticas DevOps: CI/CD, IaC, observabilidad y escalado" />
         <SalaryTable
           title="DevOps"
           ni="$1,750 – $3,333/mes"
@@ -46,4 +46,5 @@
 </template>
 <script setup>
 import SalaryTable from '../components/SalaryTable.vue'
+const base = import.meta.env.BASE_URL
 </script>
