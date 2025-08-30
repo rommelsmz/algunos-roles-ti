@@ -19,6 +19,7 @@
         <ul>
           <li>Gobierno, políticas, estándares y concientización (capacitaciones).</li>
           <li>Gestión de riesgos, cumplimiento y auditorías; métricas y reporting.</li>
+          <li>Coordinacion o ejecucion de capacitaciones y concientizacion de colaboradores en temas de seguridad digital.</li>
           <li>Planeación y liderazgo de IR/BCM/DRP; simulacros y mejora continua.</li>
           <li>Priorización de inversiones y terceros; cláusulas de seguridad en contratos.</li>
         </ul>

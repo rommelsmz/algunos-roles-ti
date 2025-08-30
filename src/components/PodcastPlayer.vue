@@ -21,7 +21,7 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 
-const audioSrc = '/audio.mp3' // Debe existir en /public o raíz del deploy
+const audioSrc = import.meta.env.BASE_URL + 'audio.mp3' // Respeta la opción `base` de Vite
 const audioRef = ref(null)
 const isPlaying = ref(false)
 
