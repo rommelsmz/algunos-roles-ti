@@ -30,7 +30,7 @@
         </p>
       </div>
       <div>
-        <img class="responsive" :src="base + 'images/calidad_datos.jpeg'" alt="Infografía de dimensiones y gobierno de la calidad de datos" />
+        <img class="responsive" src="/images/calidad_datos.jpeg" alt="Infografía de dimensiones y gobierno de la calidad de datos" />
         <SalaryTable
           title="Calidad de Datos"
           ni="$833 – $2,083/mes"
@@ -47,5 +47,4 @@
 </template>
 <script setup>
 import SalaryTable from '../components/SalaryTable.vue'
-const base = import.meta.env.BASE_URL
 </script>

@@ -29,7 +29,7 @@
         </p>
       </div>
       <div>
-        <img class="responsive" :src="base + 'images/qa.jpeg'" alt="Infografía de estrategia y automatización de QA" />
+        <img class="responsive" src="/images/qa.jpeg" alt="Infografía de estrategia y automatización de QA" />
         <SalaryTable
           title="QA"
           ni="$833 – $2,500/mes"
@@ -46,5 +46,4 @@
 </template>
 <script setup>
 import SalaryTable from '../components/SalaryTable.vue'
-const base = import.meta.env.BASE_URL
 </script>

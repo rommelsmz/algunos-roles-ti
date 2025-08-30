@@ -28,7 +28,7 @@
         </p>
       </div>
       <div>
-        <img class="responsive" :src="base + 'images/dba.jpeg'" alt="Infografía sobre administración y rendimiento de bases de datos" />
+        <img class="responsive" src="/images/dba.jpeg" alt="Infografía sobre administración y rendimiento de bases de datos" />
         <SalaryTable
           title="DBA"
           ni="$1,250 – $2,500/mes"
@@ -45,5 +45,4 @@
 </template>
 <script setup>
 import SalaryTable from '../components/SalaryTable.vue'
-const base = import.meta.env.BASE_URL
 </script>
